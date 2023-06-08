@@ -47,7 +47,6 @@ myForm.style.flexDirection = 'column'
 myForm.style.maxWidth = '500px'
 
 
-
 /* 
 Creating table
 */
@@ -71,7 +70,9 @@ document.body.append(myTable)
 
 myTable.style.textAlign = 'center'
 myTable.style.color = 'rgb(210, 55, 25)'
-myTable.style.border = '3px dotted rgb(237, 142, 74)'
+myTable.style.border = '3px dotted rgb(210, 55, 25)'
+myTable.style.backgroundColor = 'rgb(237, 142, 74)'
+myTable.style.width = '500px'
 myTable.style.fontFamily = 'courier'
 myTable.style.maxWidth = 'flex'
 
