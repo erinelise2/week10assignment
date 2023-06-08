@@ -1,8 +1,14 @@
-h1 {
+.header {
    font-family:'Courier New', Courier, monospace;
+   font-weight: bold;
 }
 
-p {
+.explain {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.instructionParagraph {
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
