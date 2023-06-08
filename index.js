@@ -38,10 +38,11 @@ console.log(myForm)
 
 myForm.style.backgroundColor = 'rgb(210, 55, 25)'
 myForm.style.color = 'white'
-myForm.style.fontFamily = 'optima'
+myForm.style.fontFamily = 'courier'
 myForm.style.textAlign = 'center'
 
 myForm.style.display = 'flex'
+myForm.style.alignItems = 'center'
 myForm.style.flexDirection = 'column'
 myForm.style.maxWidth = '500px'
 
@@ -71,7 +72,7 @@ document.body.append(myTable)
 myTable.style.textAlign = 'center'
 myTable.style.color = 'rgb(210, 55, 25)'
 myTable.style.border = '3px dotted rgb(237, 142, 74)'
-myTable.style.fontFamily = 'optima'
+myTable.style.fontFamily = 'courier'
 myTable.style.maxWidth = 'flex'
 
 console.log(myTable)
