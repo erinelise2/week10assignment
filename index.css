@@ -1,6 +1,8 @@
 .header {
    font-family:'Courier New', Courier, monospace;
-   font-weight: bold;
+   font-weight:500;
+   font-size: 45pt;
+   font-display: flex;
 }
 
 .explain {
