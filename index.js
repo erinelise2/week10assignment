@@ -13,15 +13,14 @@ function createAnimal () {
     let aLocationCol = document.createElement('td');
     let aDateCol = document.createElement('td');
 
-    aNameCol.innerText = aName;
-    aLocationCol.innerText = aLocation;
-    aDateCol.innerText = aDate;
+    aNameCol.innerHTML = aName;
+    aLocationCol.innerHTML = aLocation;
+    aDateCol.innerHTML = aDate;
 
-    let formRow = myAnimalTable.insertRow(1);
+    let formRow = myAnimalTable.insertRow();
     formRow.appendChild(aNameCol);
     formRow.appendChild(aLocationCol);
     formRow.appendChild(aDateCol);
-    formRow.appendChild(buttonCol);
 
     document.getElementById('aName').value = "";
     document.getElementById('aLocation').value = "";
