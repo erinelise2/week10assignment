@@ -5,17 +5,25 @@ Creating table
 
 let myAnimalTable = document.createElementById('myAnimalTable');
 
-function createAnimalTable () {
+function createAnimal () {
     let aName = document.getElementById('aName').value;
     let aLocation = document.getElementById('aLocation').value;
-    let aDate = document.getElemendById('aDate').value;
+    let aDate = document.getElementById('aDate').value;
     let aNameCol = document.createElement('td');
     let aLocationCol = document.createElement('td');
     let aDateCol = document.createElement('td');
+    let buttonCol = document.createElement('td');
 
     aNameCol.innerText = aName;
-    aLocation.innerText = aLocation;
+    aLocationCol.innerText = aLocation;
     aDateCol.innerText = aDate;
+
+    let button = document.createElement('button');
+    button.classList = 'btn btn-warning';
+    button.innerText = 'Remove';
+    button.addEventListener('click', function () {
+        deleteRow(formRow);
+    });
 
     buttonCol.appendChild(button);
 
@@ -28,4 +36,8 @@ function createAnimalTable () {
 document.getElementById('aName').value = "";
 document.getElementById('aLocation').value = "";
 document.getElementById('aDate').value = "";
+}
+
+function deleteRow(row) {
+    myAnimalTable.deleteRow(row.rowIndex);
 }

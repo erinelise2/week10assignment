@@ -17,13 +17,24 @@ p {
     margin: auto;
 }
 
+.formText {
+    color: rgb(237, 142, 74);
+}
+
 .tableHead {
     font-family:'Courier New', Courier, monospace;
 }
+
 .animalTable {
     justify-content: center;
     text-align: center;
     background-color: rgb(237, 142, 74);
     font-family:'Courier New', Courier, monospace;
     color: white;
+}
+
+.animalData {
+    color: rgb(237, 142, 74);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
 }

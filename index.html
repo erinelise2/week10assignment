@@ -36,12 +36,12 @@
     <div class="container animalForm text-center fs-7" id="formId">
         <div class='animalForm'>
             <label for='aName'>Animal:</label>
-            <input type='text' id='aName' name='aName'><br><br>
+            <input class="formText" type='text' id='aName' name='aName'><br><br>
             <label for='aLocation'>Location:</label>
-            <input type='text' id='aLocation' name='aLocation'><br><br> 
+            <input class="formText" type='text' id='aLocation' name='aLocation'><br><br> 
             <label for='aLocation'>Date:</label>
-            <input type='text' id='aLocation' name='aLocation'><br><br> 
-            <button onclick=createAmimalTable() class="btn m-1 btn-danger shadow border">Submit</button>
+            <input class="formText" type='date' id='aDate' name='aDate'><br><br> 
+            <button onclick=createAnimal() class="btn m-1 btn-danger border">Submit</button>
         </div>
     </div>
    
@@ -51,10 +51,15 @@
         <br>
         <h4 class = "tableHead text-white text-center">In The Wild</h4>
         <table id="myAnimalTable" class="container animalTable table-responsive table-bordered border-danger table-sm">
-            <tr class="animalTable">
+            <tr>
                 <th>Animal</th>
                 <th>Location</th>
                 <th>Date</th>
+            </tr>
+            <tr class="animalData bg-white">
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
         </table>
     </div>
