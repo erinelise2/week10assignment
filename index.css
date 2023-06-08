@@ -14,7 +14,6 @@ p {
     font-family:'Courier New', Courier, monospace;
     color: white;
     font-weight: bold;
-    margin: auto;
 }
 
 .formText {
@@ -28,13 +27,13 @@ p {
 .animalTable {
     justify-content: center;
     text-align: center;
-    background-color: rgb(237, 142, 74);
+    background-color: rgb(237, 142, 24);
     font-family:'Courier New', Courier, monospace;
     color: white;
 }
 
 .animalData {
-    color: rgb(237, 142, 74);
+    color: rgb(237, 142, 24);
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
 }
