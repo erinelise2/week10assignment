@@ -1,6 +1,6 @@
 /* 
 Creating form
-*/
+
 
 let myForm = document.createElement('form')
 let myAnimalLabel = document.createElement('label')
@@ -21,7 +21,7 @@ myLocationLabel.innerHTML = 'Location'
 let myDateLabel = document.createElement('label')
 let myDateInput = document.createElement('input')
 
-myDateLabel.innerHTML = 'Day/Month/Year'
+myDateLabel.innerHTML = 'Month/Day/Year'
 
 mySubmitButton = document.createElement('button')
 mySubmitButton.innerHTML = 'Submit'
@@ -46,7 +46,7 @@ myForm.style.alignItems = 'center'
 myForm.style.flexDirection = 'column'
 myForm.style.maxWidth = '500px'
 
-
+*/
 /* 
 Creating table
 */
@@ -74,7 +74,11 @@ myTable.style.border = '3px dotted rgb(210, 55, 25)'
 myTable.style.backgroundColor = 'rgb(237, 142, 74)'
 myTable.style.width = '500px'
 myTable.style.fontFamily = 'courier'
-myTable.style.maxWidth = 'flex'
 
+function add(){
+    let  = document.getElementById('');
+    let  = document.getElementById('');
+  
+}
 console.log(myTable)
 
