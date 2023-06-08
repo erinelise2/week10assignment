@@ -20,7 +20,7 @@ function createAnimal () {
 
     let button = document.createElement("button");
     button.classList = "btn btn-warning";
-    button.innerText = "Delete";
+    button.innerText = "Remove";
     button.addEventListener("click", function () {
         deleteRow(formRow);
     });
