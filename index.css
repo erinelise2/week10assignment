@@ -8,7 +8,13 @@ p {
 }
 
 .animalForm {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+    margin: auto;
 }
 
 .tableHead {
@@ -16,7 +22,8 @@ p {
 }
 .animalTable {
     justify-content: center;
+    text-align: center;
     background-color: rgb(237, 142, 74);
     font-family:'Courier New', Courier, monospace;
-    color: rgb(210, 55, 25);
+    color: white;
 }

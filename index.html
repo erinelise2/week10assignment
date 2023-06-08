@@ -9,10 +9,14 @@
         rel="stylesheet"
         href="./node_modules/bootstrap/dist/css/bootstrap.css"
     />
+    <link 
+        rel="stylesheet" 
+        href="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    />
     <link
         rel="stylesheet"
         href="index.css"
-        />
+    />
 </head>
 <body class="bg-warning">
     <div>
@@ -24,35 +28,37 @@
                 width = "2000"         
             />
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <h1 class="pt-2 pb-2 text-white text-center">The Wild World Around Us</h1>
             <p class="text-white text-center">Fill out the form below to tell us what you saw!</p>
         </div>
             </div>
-    <div class="container text-center mb-5 fs-2">
-        <script src="index.js"></script>
-      
+    <div class="container animalForm text-center fs-7" id="formId">
+        <div class='animalForm'>
+            <label for='aName'>Animal:</label>
+            <input type='text' id='aName' name='aName'><br><br>
+            <label for='aLocation'>Location:</label>
+            <input type='text' id='aLocation' name='aLocation'><br><br> 
+            <label for='aLocation'>Date:</label>
+            <input type='text' id='aLocation' name='aLocation'><br><br> 
+            <button onclick=createAmimalTable() class="btn m-1 btn-danger shadow border">Submit</button>
+        </div>
+    </div>
+   
+</div>
     </div>
     <div>
         <br>
-        <h4 class = "tableHead text-white text-center">Past Sightings</h4>
-        <table class="container animalTable table-hover table-sm">
-            <tr class="text-center">
+        <h4 class = "tableHead text-white text-center">In The Wild</h4>
+        <table id="myAnimalTable" class="container animalTable table-responsive table-bordered border-danger table-sm">
+            <tr class="animalTable">
                 <th>Animal</th>
                 <th>Location</th>
                 <th>Date</th>
             </tr>
-            <tr>
-                <td>#</td>
-                <td>#</td>
-                <td>#</td>
-            </tr>
-            <tr>
-                <td>#</td>
-                <td>#</td>
-                <td>#</td>
-            </tr>
         </table>
     </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
